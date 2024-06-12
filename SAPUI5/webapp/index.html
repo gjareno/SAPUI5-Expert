@@ -8,10 +8,12 @@
                 data-sap-ui-theme="sap_belize"
                 data-sap-ui-resourceroots='{"logaligroup.SAPUI5": "./"}'
                 data-sap-ui-compatVersion="edge"
-                data-sap-ui-oninit="module:logaligroup/SAPUI5/index"
+                data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
                 data-sap-ui-async="true"
                 data-sap-ui-frameOptions="trusted">
         </script>
     </head>
-    <body id="content" class="sapUiBody"></body>
+    <body id="content" class="sapUiBody">
+        <div data-sap-ui-component data-name="logaligroup.SAPUI5" data-id="container" data-set-settings='{"id":"SAPUI5"}' />
+    </body>
 </html>
